@@ -17,7 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #cbdcf7;
+  background: #6ee682;
   font-family: "Poppins", sans-serif;
 }
 
@@ -351,7 +351,7 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: rgb(255, 255, 255);
+  background: #ffffff;
 }
 .about .row {
   display: flex;
@@ -439,13 +439,36 @@ header .navbar ul li a:hover {
   transform: translateX(5px);
 }
 /* about media queries starts*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .about .row .image {
     margin-top: 2rem;
   }
   .about .row .image img {
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
+    height: 275px;
+    mix-blend-mode: normal;
+  }
+  .about .row {
+    padding: 0.5rem;
+    margin-bottom: 7rem;
+  }
+  .about .row .content {
+    padding: 1rem;
+  }
+  .about .row .content .box-container {
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about .row .image {
+    margin-top: 2rem;
+  }
+  .about .row .image img {
+    margin: 0 auto;
+    width: 90%;
+    height: 200px;
     mix-blend-mode: normal;
   }
   .about .row {
@@ -533,12 +556,13 @@ header .navbar ul li a:hover {
     width: 100%;
   }
 }
+
 /* skills media queries ends*/
 /* skills section ends */
 
 /* education section starts */
 .education {
-  background: #e5ecfb;
+  background: linear-gradient(to bottom, #74d1e9 60%, #779af8 ,#6f82ac);
   min-height: 80vh;
 }
 .education .qoute {
@@ -643,10 +667,10 @@ header .navbar ul li a:hover {
 /* education media queries ends*/
 /* education section ends */
 
-/* work section starts */
+/* Projects section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  background: linear-gradient(to bottom, #21216d, #00002c);
 }
 .work h2 {
   color: #fff;
@@ -659,6 +683,7 @@ header .navbar ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
+  /* color:#000; */
   margin: 2rem;
 }
 .work .box-container .box {
@@ -762,7 +787,7 @@ header .navbar ul li a:hover {
 .work .viewall .btn:hover i {
   transform: translateX(5px);
 }
-/* work section ends */
+/* Project section ends */
 
 /* experience section starts */
 .experience .timeline {
