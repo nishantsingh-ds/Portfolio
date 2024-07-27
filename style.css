@@ -138,16 +138,20 @@ header .navbar ul li a:hover {
   body{
     background-color: #b1b5bd;
   }
+  header{
+    background-color: #98a0aa;
+    /* height: 40px; */
+  }
   header .navbar {
     position: fixed;
     top: 6.5rem;
     right: -120%;
-    width: 75%;
+    width: 70%;
     height: 100%;
     
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: #171727;
   }
   header .navbar ul {
     flex-flow: column;
