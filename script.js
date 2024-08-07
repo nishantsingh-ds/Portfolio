@@ -60,11 +60,11 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | NishantSingh";
-            $("#favicon").attr("href", "assets/images/favicon.jpg");
+            $("#favicon").attr("href", "./Images/N.jpg");
         }
         else {
-            document.title = "Portfolio | NishantSingh";
-            $("#favicon").attr("href", "assets/images/favicon.jpg");
+            document.title = "Portfolio | NishantSingh";    
+            $("#favicon").attr("href", "./Images/N.jpg");
         }
     });
 
