@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["2+ year of Experience on Machine learning","worked on RAG models", "worked on Image classification Model", "worked on Transformer Generative text Models", "worked on Object Detection Models", "worked on Transformer Translation Models","worked on Object Segmentation Models","worked on RNN Text Generation Model"],
+    strings: ["2+ year of Experience on Machine learning","worked on RAG models","worked on Transformer large language Models","worked on Object Segmentation Models", "worked on Transformer Translation Models","worked on RNN Text Generation Model"],
     loop: true,
     typeSpeed: 60,
     backSpeed: 30,
