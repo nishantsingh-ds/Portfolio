@@ -318,7 +318,7 @@ header .navbar ul li a:hover {
   background-color: #0685da;
 }
 .social-icons a.github:hover {
-  background-color: #0e0e0e;
+  background-color: #201e1e;
 }
 .social-icons a.twitter:hover {
   background-color: #00aced;
@@ -333,7 +333,7 @@ header .navbar ul li a:hover {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
 .social-icons a.Kaggle:hover {
-  background: #242a80;
+  background: #474752;
 }
 /* social icons end */
 
