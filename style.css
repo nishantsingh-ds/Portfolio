@@ -40,7 +40,6 @@ html::-webkit-scrollbar-thumb {
   background: #420177;
 }
 
-/* pre loader start */
 .loader-container {
   position: fixed;
   top: 0;
@@ -56,9 +55,6 @@ html::-webkit-scrollbar-thumb {
 .loader-container.fade-out {
   top: -120%;
 }
-/* pre loader end */
-
-/* navbar starts */
 header {
   position: fixed;
   top: 0;
@@ -121,9 +117,6 @@ header .navbar ul li a:hover {
   border-bottom: 0.2rem solid #da0416;
   padding: 0.5rem 0;
 }
-/* navbar ends */
-
-/* hamburger icon starts*/
 #menu {
   font-size: 3rem;
   cursor: pointer;
@@ -133,14 +126,12 @@ header .navbar ul li a:hover {
 @media (max-width: 768px) {
   #menu {
     display: block;
-    /* font-size: 20%; */
   }
   body{
     background-color: #b1b5bd;
   }
   header{
     background-color: #98a0aa;
-    /* height: 40px; */
   }
   header .navbar {
     position: fixed;
@@ -185,9 +176,6 @@ header .navbar ul li a:hover {
     right: 0;
   }
 }
-/* hamburger icon ends */
-
-/* hero section starts*/
 .home {
   position: relative;
   display: flex;
@@ -282,7 +270,7 @@ header .navbar ul li a:hover {
 .home .btn:hover i {
   transform: translateX(5px);
 }
-/* social icons start */
+
 .socials {
   position: relative;
   margin-top: 9rem;
@@ -335,9 +323,6 @@ header .navbar ul li a:hover {
 .social-icons a.Kaggle:hover {
   background: #474752;
 }
-/* social icons end */
-
-/* hero media queries starts*/ 
 @media (max-width: 450px) {
   .home .btn {
     margin: 4rem 0;
@@ -355,10 +340,6 @@ header .navbar ul li a:hover {
     font-size: 2.2rem;
   }
 }
-/* hero media queries ends*/
-/* hero section end */
-
-/* about section starts */
 .about {
   background: #ffffff;
 }
@@ -447,7 +428,7 @@ header .navbar ul li a:hover {
 .resumebtn .btn:hover i {
   transform: translateX(5px);
 }
-/* about media queries starts*/
+
 @media screen and (max-width: 650px) {
   .about .row .image {
     margin-top: 2rem;
@@ -491,10 +472,7 @@ header .navbar ul li a:hover {
     gap: 0;
   }
 }
-/* about media queries ends*/
-/* about section ends */
 
-/* skills section starts */
 .skills {
   min-height: 90vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
@@ -548,7 +526,7 @@ header .navbar ul li a:hover {
   font-family: "Poppins";
   margin-left: 0.5rem;
 }
-/* skills media queries starts*/
+
 @media screen and (max-width: 600px) {
   .skills .container {
     padding: 0;
@@ -566,10 +544,7 @@ header .navbar ul li a:hover {
   }
 }
 
-/* skills media queries ends*/
-/* skills section ends */
 
-/* education section starts */
 .education {
   background: linear-gradient(to bottom, #74d1e9 60%, #779af8 ,#6f82ac);
   min-height: 80vh;
@@ -645,7 +620,6 @@ header .navbar ul li a:hover {
   font-weight: 700;
 }
 
-/* education media queries starts*/
 @media screen and (max-width: 600px) {
   .education .box-container .box {
     flex-direction: column;
@@ -673,12 +647,9 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
   }
 }
-/* education media queries ends*/
-/* education section ends */
 
-/* Projects section starts */
 .work {
-  /* background: #010124; */
+ 
   background: linear-gradient(to bottom, #21216d, #00002c);
 }
 .work h2 {
@@ -692,7 +663,6 @@ header .navbar ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  /* color:#000; */
   margin: 2rem;
 }
 .work .box-container .box {
@@ -796,9 +766,7 @@ header .navbar ul li a:hover {
 .work .viewall .btn:hover i {
   transform: translateX(5px);
 }
-/* Project section ends */
 
-/* experience section starts */
 .experience .timeline {
   position: relative;
   max-width: 1500px;
@@ -821,7 +789,6 @@ header .navbar ul li a:hover {
   background-color: inherit;
   width: 50%;
 }
-/*circles on timeline*/
 .experience .container::after {
   content: "\f0b1";
   position: absolute;
@@ -845,7 +812,7 @@ header .navbar ul li a:hover {
 .experience .right {
   left: 50%;
 }
-/* arrows pointing right */
+
 .experience .left::before {
   content: " ";
   height: 0;
@@ -858,7 +825,7 @@ header .navbar ul li a:hover {
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #f68c09;
 }
-/* arrows pointing left  */
+
 .experience .right::before {
   content: " ";
   height: 0;
@@ -895,7 +862,7 @@ header .navbar ul li a:hover {
 .experience .content .desc p {
   font-size: 1.2rem;
 }
-/* view all button */
+
 .morebtn {
   display: flex;
   justify-content: center;
@@ -928,7 +895,6 @@ header .navbar ul li a:hover {
   transform: translateX(5px);
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .experience {
     min-height: 100vh;
@@ -966,10 +932,7 @@ header .navbar ul li a:hover {
     margin-top: 3rem;
   }
 }
-/* experience media queries ends */
-/* experience section ends */
 
-/* contact section starts */
 .contact {
   background: #e5ecfb;
   min-height: 60vh;
@@ -1104,7 +1067,6 @@ form .button-area {
 .button-area button:hover i {
   left: 8px;
 }
-/* contact section media queries starts */
 @media (max-width: 900px) {
   .contact {
     min-height: 70vh;
@@ -1123,10 +1085,7 @@ form .button-area {
     margin-right: 2rem;
   }
 }
-/* contact section media queries ends */
-/* contact section ends */
 
-/* footer section starts */
 .footer {
   min-height: auto;
   padding-top: 0;
@@ -1229,9 +1188,7 @@ form .button-area {
     padding: 1.2rem;
   }
 }
-/* footer section ends */
 
-/* common media queries starts*/
 @media (max-width: 450px) {
   html {
     font-size: 55%;
@@ -1243,9 +1200,7 @@ form .button-area {
     padding: 2rem;
   }
 }
-/* common media queries ends*/
 
-/* scroll top starts */
 #scroll-top {
   position: fixed;
   top: -140%;
@@ -1261,4 +1216,4 @@ form .button-area {
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
-/* scroll top ends */
+
